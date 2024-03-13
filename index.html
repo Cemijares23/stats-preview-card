@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="css/styles.css" as="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <div class="container__heading">
+      <picture>
+        <source class="container__image" srcset="images/image-header-desktop.jpg" media="(min-width: 768px)">
+        <img class="container__image" src="images/image-header-mobile.jpg" alt="Header image">
+      </picture>
+    </div>
+
+    <div class="content">
+      <h1 class="content__title">Get <span>insights</span> that help your business grow.</h1>
+
+      <p class="content__description">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <p class="stat__info">10k+</p>
+        <p class="stat__heading">companies</p>
+      </div>
+      <div class="stat">
+        <p class="stat__info">314</p>
+        <p class="stat__heading">templates</p>
+      </div>
+      <div class="stat">
+        <p class="stat__info">12M+</p>
+        <p class="stat__heading">queries</p>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Cemijares23">Christopher Mijares</a>.</p>
+  </footer>
+</body>
+</html>
