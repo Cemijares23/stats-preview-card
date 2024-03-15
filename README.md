@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./stats-preview-card-screenshot.jpg)
+![](./stats-preview-card-screenshot.png)
 
 
 ### Links
